@@ -1,0 +1,56 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+	<meta charset="utf-8" />
+</head>
+<body>
+    <form>
+        FirstName:<input type="text" name="firstname" value="Anu" size="10" maxlength="6" autofocus />
+        <br />
+        <br />
+        FirstName:<input type="text" name="firstname" value="Anu" readonly />
+        <br />
+        <br />
+        Last Name:<input type="text" name="lastname" disabled />
+        <br />
+        <br />
+        Select your favorite color: <input type="color" name="favcolor" value="chartreuse">
+        <br />
+        <br />
+        Select a week:<input type="week" name="week_year">
+        <br />
+        <br />
+        Birthday:<input type="date" name="bday">
+        <br />
+        <br />
+        Enter a date before 1980-01-01: <input type="date" name="bday" max="2018-12-31">
+        <br />
+        Enter a date after 2000-01-01:  <input type="date" name="bday" min="2009-01-02">
+        <br />
+        <br />
+        Select a time: <input type="time" name="usr_time">
+        <br />
+        <br />
+        Birthday (date and time): <input type="datetime-local" name="bdaytime">
+        <br />
+        <br />
+        Birthday (month and year): <input type="month" name="bdaymonth">
+        <br />
+        <br />
+        Quantity (between 1 and 10):<input type="number" name="quantity" min="1" max="10">
+        <br />
+        <br />
+        Quantity:<input type="number" name="points" min="0" max="70" step="10" value="20">
+        <br />
+        <br />
+        Select images: <input type="file" name="img" multiple>
+        <br />
+        <br />
+        Country code: <input type="text" name="country_code" pattern="[A-Za-z]{3}" title="Three letter country code">
+        <br />
+        <br />
+        <input type="submit" />
+        
+</body>
+</html>
